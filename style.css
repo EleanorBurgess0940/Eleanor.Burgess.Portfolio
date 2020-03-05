@@ -1,11 +1,20 @@
-.nav-item{
-    list-style-type:none;
+.navbarNav{
+    color:black;
+}
+ul{
+    list-style-type: none;
+}
+.nav-link{
+    list-style-type:horizontal;
     margin-right: 0;
-    float: right 
+    float: left;
+    color:black;
+    margin-bottom:0;
 }
 .navbar-brand{
     margin-left: 25%;
-    padding:45px
+    padding:20px;
+    background-color:coral;
 }
 .row{
     margin-bottom:20px;
@@ -15,5 +24,24 @@ footer{
     color:white;
     text-align: center;
     padding:20px;
-    border-top: 10px solid grey;
+    border-top: 10px solid black;
+}
+body{
+    background-color: gray
+}
+.container{
+    background-color:white;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.project{
+    position:relative;
+}
+.text-block{
+        position: absolute;
+        bottom: 100px;
+        background-color: black;
+        color: white;
+        padding-left: 90px;
+        padding-right:90px;
 }
