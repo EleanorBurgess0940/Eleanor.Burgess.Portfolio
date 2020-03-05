@@ -1,13 +1,9 @@
+.nav-item{
+    list-style-type:none;
+    margin-right: 0;
+    float: right 
+}
 .navbar-brand{
-    background-color:rgb(63, 123, 252);
-    color: white;
-    font-size: 35px;
-    margin-left: 100px;
-}
-.navbar-item{
-    color: grey;
-    float:right;
-}
-.background{
-    background-color:gray;
+    margin-left: 25%;
+    padding:45px
 }
