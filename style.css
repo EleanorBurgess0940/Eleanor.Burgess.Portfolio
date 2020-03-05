@@ -4,6 +4,9 @@
 ul{
     list-style-type: none;
 }
+header{
+    border-bottom:10px dashed black
+}
 .nav-link{
     list-style-type:horizontal;
     margin-right: 0;
@@ -12,9 +15,10 @@ ul{
     margin-bottom:0;
 }
 .navbar-brand{
-    margin-left: 25%;
+    margin-left: 0;
     padding:20px;
-    background-color:coral;
+    margin-bottom:0;
+    color:black;
 }
 .row{
     margin-bottom:20px;
@@ -27,7 +31,7 @@ footer{
     border-top: 10px solid black;
 }
 body{
-    background-color: gray
+    background-color: rgb(255, 172, 142);
 }
 .container{
     background-color:white;
