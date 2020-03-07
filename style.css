@@ -1,5 +1,8 @@
 /*The below styling code is used for all three webpages. It includes items that they all share. Aka the header and the footer*/
-    /*The navbarNav code below is used to style the text black in the header*/
+.navbar{
+     padding: 0;
+}
+/*The navbarNav code below is used to style the text black in the header*/
 .navbarNav{
     color:black;
 } 
@@ -18,7 +21,7 @@ header{
     float: left;
     color:black;
     margin-bottom:0;
-    margin-left:0;
+ 
 }
     /*the navbar-brand css code below is used to style my name that is in the left side of the navbar.*/
 .navbar-brand{
@@ -30,7 +33,7 @@ header{
 }
     /* the row css code below is used to make space after each row and lead to a better layout*/
 .row{
-    margin-bottom:20px;
+    margin-bottom:50px;
 }
     /* the footer code below is used to format the footer of all three pages */
 footer{
@@ -39,6 +42,7 @@ footer{
     text-align: center;
     padding:20px;
     border-top: 10px solid black;
+    width:100%
 }
     /* the body code below is used to format the body of all three pages */
 body{
@@ -63,6 +67,13 @@ body{
     background-color:rgb(168, 255, 197);
     border-color:rgb(0, 255, 85);
 }
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 400px;
+    padding:20px;
+}
+
 /*
   The width of the wrapper will be 1024px
   at browser widths above 768px
@@ -74,10 +85,29 @@ body{
   width: 50%;
 }
 #sidebar {
-    width:25%;
+    width:40%;
     float: right;
 }
+.img{
+    width: 250px;
+    margin-bottom:50px;
 
+}   
+@media screen and (max-width: 837px){
+    #sidebar{
+     width:100%;
+     float: right;
+    background-color:lightgray;
+    border-top:2px solid gray 
+    }
+    .projectPicture{
+        width: 100%;
+        margin-bottom:30px;
+    }      
+    .im{
+        width:350px;
+    }
+}
 @media screen and (max-width: 640px){
     .wrapper {
         width: 100%;
@@ -95,4 +125,9 @@ body{
     #main-content{
         padding-left:20%;
     }
+    .img{
+        width: 400px;
+        margin-bottom:50px;
+
+    }   
 }
