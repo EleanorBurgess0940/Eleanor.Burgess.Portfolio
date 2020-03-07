@@ -15,13 +15,15 @@
     <nav>
         <div class="wrapper">
             <div class="navbar navbar-light bg-light">
-
+                <!--The main content of my name is going to be the left in the header-->
+                <!--When the screen goes to below 640 it will flow on top of the sidebar-->
                 <div id="main-content">
                     <a class="navbar-brand">
                         <h2>Eleanor C. Burgess</h2>
                     </a>
                 </div>
-
+                <!--The sidebar content of the navigational links is going to be right side of the header-->
+                <!--When the screen goes to below 640 it will go to the bottom of the main content-->
                 <div id="sidebar">
                     <ul class="navbar list-group list-group-horizontal">
                         <li class="nav-item active">
@@ -40,9 +42,10 @@
 </header>
 <!-- End Navbar-->
 
-<!--Start of body of the website-->
+<!--Start of body of the webpage-->
 <!--Basic Form/submission taken from Bootstrap-->
 <!--This is where people will be able to contact me with there name and an email with a message-->
+<!--It is currently nonfunction-->
 
 <body>
     <div class="container border">
@@ -52,11 +55,13 @@
                     <h1> Contact</h1>
                     <hr>
                 </div>
+
                 <form>
                     <div class="form-group">
                         <label for="exampleInputName1">Name</label>
                         <input type="Name" class="form-control" id="exampleInputName1" placeholder="Jamie Smith">
                     </div>
+
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -67,6 +72,7 @@
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
