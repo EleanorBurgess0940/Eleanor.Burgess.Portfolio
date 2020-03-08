@@ -73,7 +73,9 @@ img {
     width: 400px;
     padding:20px;
 }
-
+.profilepicture{
+    width:300px;
+}
 /*
   The width of the wrapper will be 1024px
   at browser widths above 768px
