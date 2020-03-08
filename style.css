@@ -102,7 +102,8 @@ img {
     background-color:lightgray;
     border-top:2px solid gray 
     }
-    .projectPicture{
+    .projectPicture 
+    #profile{
         width: 100%;
         margin-bottom:30px;
     }      
@@ -115,8 +116,9 @@ img {
         width: 100%;
     }
       #main-content,
-    #sidebar {
-      width:100%;
+    #sidebar 
+    #profile{
+              width:100%;
 
     }
     #sidebar {
