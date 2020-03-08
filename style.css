@@ -1,3 +1,4 @@
+/*Most of the styling was taken from bootstrap style sheet with a few expections*/
 /*The below styling code is used for all three webpages. It includes items that they all share. Aka the header and the footer*/
 .navbar{
      padding: 0;
@@ -54,7 +55,7 @@ footer{
 body{
     background-color: rgb(219, 255, 231);
 }
-/*the below css code is used to make the rows that i created in bootstrap have a background*/
+/*the below for class of container css code is used to make the rows that i created in bootstrap have a background*/
 .container{
     background-color:white;
     margin-top: 30px;
@@ -90,7 +91,7 @@ img {
 
 
 /*
-  The Below code will deal with the multiple screen sizes. The first one is if the screen is bigger than 836px
+  The Below code will deal with the multiple screen sizes. The first one is if the screen is bigger than 838px
 */
 .wrapper {
     width: 100%;
@@ -107,7 +108,7 @@ img {
     margin-bottom:50px;
 
 }   
-/* the below code deals with the screen when the width is less than 837px*/
+/* the below code deals with the screen when the width is less than 837px but more than 640px*/
 @media screen and (max-width: 837px){
     #sidebar{
      width:100%;
