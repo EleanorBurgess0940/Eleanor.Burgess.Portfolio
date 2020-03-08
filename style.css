@@ -35,7 +35,13 @@ header{
 .row{
     margin-bottom:50px;
 }
-    /* the footer code below is used to format the footer of all three pages */
+
+/* the body code below is used to format the body of all three pages */
+body{
+    background-color: rgb(219, 255, 231);
+}   
+
+/* the footer code below is used to format the footer of all three pages */
 footer{
     background-color:rgb(153, 250, 186);
     color:white;
@@ -48,37 +54,43 @@ footer{
 body{
     background-color: rgb(219, 255, 231);
 }
-
+/*the below css code is used to make the rows that i created in bootstrap have a background*/
 .container{
     background-color:white;
     margin-top: 30px;
     margin-bottom:30px;
 }
-.project{
-    position:relative;
-}
-.text-block{
-        position: absolute;
-        bottom: 100px;
-        background-color: black;
-        color: white;
-}       
+/* the below code for a button is to change the button on the contact page to the right color*/
 .btn-primary {
     background-color:rgb(168, 255, 197);
     border-color:rgb(0, 255, 85);
 }
+/* the below code is only used on the portfolio.html it is used to make the the project images the right size*/
+/* These images will change once i start making projects*/
 img {
     vertical-align: middle;
     border-style: none;
     width: 400px;
     padding:20px;
 }
+.text-block{
+    position: absolute;
+    bottom: 100px;
+    background-color: black;
+    color: white;
+}    
+.project{
+    position:relative;
+}
+
+/*The Below code is only used on the index.html it is used to make the profile picture the right size*/
 .profilepicture{
     width:300px;
 }
+
+
 /*
-  The width of the wrapper will be 1024px
-  at browser widths above 768px
+  The Below code will deal with the multiple screen sizes. The first one is if the screen is bigger than 836px
 */
 .wrapper {
     width: 100%;
@@ -95,6 +107,7 @@ img {
     margin-bottom:50px;
 
 }   
+/* the below code deals with the screen when the width is less than 837px*/
 @media screen and (max-width: 837px){
     #sidebar{
      width:100%;
@@ -111,6 +124,7 @@ img {
         width:350px;
     }
 }
+/* the below code deals with the screen when the width is less than 640px*/
 @media screen and (max-width: 640px){
     .wrapper {
         width: 100%;
