@@ -20,6 +20,6 @@ https://eleanorburgess0940.github.io/Eleanor.Burgess.Portfolio/
 
 # Picture
 
-![AboutMe](./images/aboutMe.PNG)
+![AboutMe](./Images/aboutMe.PNG)
 
-![portfolio](./images/portfolio.PNG)
+![portfolio](./Images/portfolio.PNG)
