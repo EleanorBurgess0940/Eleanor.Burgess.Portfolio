@@ -34,8 +34,6 @@ header {
 /* the row css code below is used to make space after each row and lead to a better layout*/
 .row {
   margin-bottom: 50px;
-  white-space: nowrap;
-  margin: auto;
 }
 
 /* the body code below is used to format the body of all three pages */
@@ -73,7 +71,6 @@ img {
   vertical-align: middle;
   border-style: none;
   width: 400px;
-  height: 250px;
   padding: 20px;
 }
 .text-block {
@@ -85,18 +82,15 @@ img {
 .project {
   position: relative;
 }
-.col-md-10 {
+.portfolio {
+  white-space: nowrap;
   margin: auto;
 }
-.col-md-6 {
+
+.individualProject {
   max-width: 100%;
   text-align: center;
 }
-
-.taco {
-  margin: auto;
-}
-
 /*The Below code is only used on the index.html it is used to make the profile picture the right size*/
 .profilepicture {
   width: 300px;
