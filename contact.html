@@ -44,33 +44,43 @@
       </div>
     </nav>
   </header>
-  <!-- End Navbar-->
-
-  <!--Start of body of the webpage-->
-  <!--Basic Form/submission taken from Bootstrap-->
-  <!--This is where people will be able to contact me with there name and an email with a message-->
-  <!--It is currently nonfunctioning-->
 
   <body>
     <div class="container border">
       <div class="row">
+        '
         <div class="col-md-8">
           <div class="page-header">
             <h1>Contact</h1>
-            <hr />
           </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                placeholder="jsmith@gmail.com"
+              />
+              <label for="exampleInputName1">Name</label>
+              <input
+                type="Name"
+                class="form-control"
+                id="exampleInputName1"
+                placeholder="Jamie Smith"
+              />
+            </div>
 
-          <div class="card">
-            <h5>Email Address: eleanor.c.burgess@gmail.com</h3>
-
-            <h5>Phone Number: 267-221-0940</h3>
-
-            <h5>Github: https://github.com/EleanorBurgess0940</h3>
-
-            <h53>
-              LinkedIn: https://www.linkedin.com/in/eleanor-burgess-14a08b1a3/
-            </h3>
-          </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
     </div>
@@ -80,8 +90,6 @@
   <!--Start of the footer of the Contact page-->
   <!--This is the same on portfolio and index-->
   <footer>
-    <p>
-      &copy; 2020
-    </p>
+    &copy; 2020
   </footer>
 </html>
