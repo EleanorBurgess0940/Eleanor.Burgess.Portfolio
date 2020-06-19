@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleanor Burgess About Me</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!--Start of Navigational Bar-->
+  <header>
+    <nav>
+      <div class="wrapper">
+        <div class="navbar navbar-light bg-light">
+          <!--The main content of my name is going to be the left in the header-->
+          <!--When the screen goes to below 640 it will flow on top of the sidebar-->
+          <div id="main-content">
+            <a class="navbar-brand nav-link" href="home.html">
+              <h2>Eleanor C. Burgess</h2>
+            </a>
+          </div>
+          <!--The sidebar content of the navigational links is going to be right side of the header-->
+          <!--When the screen goes to below 640 it will go to the bottom of the main content-->
+          <div id="sidebar">
+            <ul class="navbar list-group list-group-horizontal">
+              <li class="nav-item active">
+                <a class="nav-link" href="aboutMe.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Today</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Navbar-->
+
+  <!--This is the main content of the about me page-->
+
+  <body>
+    <div class="container border">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="page-header">
+            <br />
+            <br />
+            <h1>About Me</h1>
+            <hr />
+          </div>
+
+          <div class="row">
+            <!--This is the profil picture of the about me page-->
+            <!--This will when the screen becomes smaller go above the text that writes about me-->
+            <div class="col-md-4">
+              <img
+                class="profilepicture rounded"
+                src="Images/graduate.jpg"
+                alt="graduate"
+                id="graduate"
+              />
+            </div>
+
+            <!--This is the about me text. when the screen becomes smaller it will go below the Profile Picture-->
+            <div class="col-md-6" id="sidebar">
+              <p>
+                I am currently residing in Manayunk, Pennsylvania. I have a
+                degree from Johnson and Wales University in Culinary Arts and
+                Food Service Management. I am currently attending Penn's LPS
+                Coding Boot Camp and will graduate in August. Prior to starting
+                the UPenn bootcamp I used to work as the Assistant Operational
+                Manager at La Prima catering.
+              </p>
+              <br />
+              <div class="col-md-4">
+                <img
+                  class="profilepicture rounded"
+                  src="Images/leela.jpg"
+                  alt="graduate"
+                  id="graduate"
+                />
+              </div>
+              <p>
+                One of the highlights from working at La Prima Catering was
+                feeding the Philadelphia 76ers and the Philadelphia Flyers. I
+                decided to take this program was for a change of pace. When I am
+                not programming I enjoy baking/cooking and walking my dog.I am
+                an avid supporter of the Philadelphia Union soccer team. I also
+                enjoy traveling and most recently went to India for the Holiday
+                season two years ago.
+              </p>
+              <br />
+              <div class="col-md-4">
+                <img
+                  class="profilepicture rounded"
+                  src="Images/hobbies.jpg"
+                  alt="graduate"
+                  id="graduate"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- This is the end of the body-->
+
+  <!--This is the start of the footer-->
+  <footer>
+    <p>
+      &copy; 2020
+    </p>
+  </footer>
+  <!--This is the end of the footer-->
+</html>

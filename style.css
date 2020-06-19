@@ -16,6 +16,10 @@ header {
   border-bottom: 10px dashed black;
 }
 /*the nav-link css code below is used to style the list of navigational points that sit in the right side of the navbar.*/
+
+h1 {
+  color: black;
+}
 .nav-link {
   list-style-type: horizontal;
   margin-right: 0;

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eleanor Burgess Contact Me</title>
+    <title>Eleanor Burgess About Me</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -21,7 +21,7 @@
           <!--The main content of my name is going to be the left in the header-->
           <!--When the screen goes to below 640 it will flow on top of the sidebar-->
           <div id="main-content">
-            <a class="navbar-brand">
+            <a class="navbar-brand nav-link" href="home.html">
               <h2>Eleanor C. Burgess</h2>
             </a>
           </div>
@@ -44,52 +44,53 @@
       </div>
     </nav>
   </header>
+  <!-- End Navbar-->
+
+  <!--This is the main content of the about me page-->
 
   <body>
     <div class="container border">
       <div class="row">
-        '
-        <div class="col-md-8">
-          <div class="page-header">
-            <h1>Contact</h1>
+        <div class="col-md-10">
+          <div class="page-header align-content-center">
+            <br />
+            <br />
+            <h1>Hello! My name is Eleanor Burgess</h1>
+            <h3>But you can call me Elly.</h3>
+            <hr />
           </div>
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                placeholder="jsmith@gmail.com"
-              />
-              <label for="exampleInputName1">Name</label>
-              <input
-                type="Name"
-                class="form-control"
-                id="exampleInputName1"
-                placeholder="Jamie Smith"
+
+          <div class="row">
+            <!--This is the profil picture of the about me page-->
+            <!--This will when the screen becomes smaller go above the text that writes about me-->
+            <div class="col-md-4">
+              <img
+                class="profilepicture rounded"
+                src="Images/Elly-Burgess.jpg"
+                alt="ProfilePicture"
+                id="profile"
               />
             </div>
 
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
+            <!--This is the about me text. when the screen becomes smaller it will go below the Profile Picture-->
+            <div class="col-md-6" id="sidebar">
+              <p>
+                I am currently attending Penn's LPS Coding Boot Camp and will
+                graduate in August.
+              </p>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
   </body>
-  <!--End of the body of the Contact page-->
+  <!-- This is the end of the body-->
 
-  <!--Start of the footer of the Contact page-->
-  <!--This is the same on portfolio and index-->
+  <!--This is the start of the footer-->
   <footer>
-    &copy; 2020
+    <p>
+      &copy; 2020
+    </p>
   </footer>
+  <!--This is the end of the footer-->
 </html>
