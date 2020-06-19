@@ -17,7 +17,10 @@ header {
 }
 /*the nav-link css code below is used to style the list of navigational points that sit in the right side of the navbar.*/
 
-h1 {
+h4 {
+  color: black;
+}
+a {
   color: black;
 }
 .nav-link {
@@ -43,12 +46,12 @@ h1 {
 /* the body code below is used to format the body of all three pages */
 body {
   background-color: rgb(219, 255, 231);
+  text-align: center;
 }
 
 /* the footer code below is used to format the footer of all three pages */
 footer {
   background-color: rgb(153, 250, 186);
-  color: white;
   text-align: center;
   padding: 20px;
   border-top: 10px solid black;
